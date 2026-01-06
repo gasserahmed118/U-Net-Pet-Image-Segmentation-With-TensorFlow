@@ -25,4 +25,20 @@ With these optimizations, the model achieves **>95% pixel-wise accuracy** on the
 ---
 
 ## Project Structure
+U-Net-Pet-Segmentation/
+│
+├─ notebook.ipynb # Main Jupyter/Colab notebook
+├─ README.md # This file
+├─ requirements.txt # Required Python packages
+├─ outputs/ # Folder to save sample predictions
+│
+└─ utils.py # Optional: helper functions (mask creation, visualization)
 
+
+Requirements
+   1. Python 3.8+
+   2. TensorFlow 2.x
+   3. TensorFlow Datasets
+   4. Matplotlib
+   5. IPython (for clear_output)
+   6. TensorFlow Examples (for pix2pix upsampling)
