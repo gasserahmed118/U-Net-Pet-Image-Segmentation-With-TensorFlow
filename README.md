@@ -44,3 +44,15 @@ U-Net-Pet-Segmentation/
    4. Matplotlib
    5. IPython (for clear_output)
    6. TensorFlow Examples (for pix2pix upsampling)
+
+## Key Functions
+   1. normalize(input_image, input_mask) → scales images and masks
+   2. load_image_train() → applies data augmentation for training
+   3. load_image_test() → prepares test images
+   4. unet_model() → builds the U-Net with MobileNetV2 backbone
+   5. dice_loss() → computes Dice loss
+   6. combined_loss() → Dice + SparseCategoricalCrossentropy
+   7. show_predictions() → visualizes predicted masks
+   8. create_mask() → converts predictions to masks
+
+
