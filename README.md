@@ -25,6 +25,7 @@ With these optimizations, the model achieves **>95% pixel-wise accuracy** on the
 ---
 
 ## Project Structure
+
 U-Net-Pet-Segmentation/
 │
 ├─ notebook.ipynb # Main Jupyter/Colab notebook
@@ -35,7 +36,7 @@ U-Net-Pet-Segmentation/
 └─ utils.py # Optional: helper functions (mask creation, visualization)
 
 
-Requirements
+## Requirements
    1. Python 3.8+
    2. TensorFlow 2.x
    3. TensorFlow Datasets
